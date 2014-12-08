@@ -156,3 +156,5 @@ crm = {
 #   Jane Otto
 #
 # ------- your code under here -----------
+
+crm[:people].each {|peep| puts "#{peep[:first_name]} #{peep[:last_name]}"}
